@@ -1,8 +1,40 @@
-body {
-	margin-top:50px;
+
+#profile-picture {
+	display: block;
+	width: 70%;
+	height: auto;
+	border-radius: 100%;
+	align-self: center;
+	margin: 0 auto;
 }
 
-h1 {
+body {
+	margin-top:100px;
+}
+
+div.text-center-children * {
+	text-align: center;
+}
+
+/*.sub-content {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}*/
+
+.links * {
+	font-size: 30px;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.links > a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;	
+}
+
+/*h1 {
 	text-decoration: underline;
 }
 
@@ -20,12 +52,7 @@ h1 {
 	flex-grow: 1;
 }
 
-#profile-picture {
-	display: block;
-	width: 70%;
-	height: auto;
-	border-radius: 100%;
-}
+
 
 .make-center {
 	margin-left: auto;
@@ -35,5 +62,5 @@ h1 {
 
 a.links {
 
-}
+}*/
 
